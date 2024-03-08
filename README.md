@@ -80,7 +80,7 @@ a experiência do usuário e especificações técnicas, conforme detalhado a se
 - **Código do Imóvel:**
 A tabela imóvel não possui nenhum campo relacionado à sua descrição. Como o código
 do imóvel não possuía especificação, este campo recebeu o tipo Varchar para suprir
-este papel. O campo é possui a constraint unique por seu nome sugerir esta propriedade.
+este papel. O campo possui a constraint unique por seu nome sugerir esta propriedade.
 
 
 - **Código da Reserva:**
@@ -89,8 +89,8 @@ Neste caso, por falta de mais detalhes quanto ao uso desta informação pelo usu
 a especificação técnica pesou mais. Sendo assim, o campo recebeu o tipo UUID, uma vez
 que este tipo de identificador possui mecanismos contra choque e possui uma geração pseudoaleatória,
 o que atende aos requisitos propostos pelo desafio. Outros tipos dados foram considerados, como por
-exemplo op uso de hashes geradas a partir de informações da tabela, como a primary key e foreign keys,
-mas o uuid possui uma implementação substancialmente mais simples, e por isso foi escolhido.
+exemplo o uso de hashes geradas a partir de informações da tabela, como a primary key e foreign keys,
+mas o UUID possui uma implementação substancialmente mais simples, e por isso foi escolhido.
 
 
 ## Validações Extras
