@@ -60,7 +60,7 @@ python3 manage.py runserver
 
 ## Considerações
 Alguns aspectos do projeto, propositalmente, não estão documentados na proposição do
-desafio. Isto permite avaliar as escolhas do programador quando há mais o mesmo possui
+desafio. Isto permite avaliar as escolhas do programador quando o mesmo possui
 mais autonomia. Esta seção expõe o processo de tomada de decisões subjetivas.
 
 
@@ -90,7 +90,7 @@ a especificação técnica pesou mais. Sendo assim, o campo recebeu o tipo UUID,
 que este tipo de identificador possui mecanismos contra choque e possui uma geração pseudoaleatória,
 o que atende aos requisitos propostos pelo desafio. Outros tipos dados foram considerados, como por
 exemplo o uso de hashes geradas a partir de informações da tabela, como a primary key e foreign keys,
-mas o UUID possui uma implementação substancialmente mais simples, e por isso foi escolhido.
+mas o UUID possui uma implementação substancialmente mais simples e por isso foi escolhido.
 
 
 ### Validações Extras
