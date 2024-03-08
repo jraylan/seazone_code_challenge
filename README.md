@@ -93,7 +93,7 @@ exemplo o uso de hashes geradas a partir de informações da tabela, como a prim
 mas o UUID possui uma implementação substancialmente mais simples, e por isso foi escolhido.
 
 
-## Validações Extras
+### Validações Extras
 Alguns aspectos não documentados parecem, por inferência, pertencerem ao escopo do teste. Como
 desenvolvedor, é important usar o seu conhecimento e experiência sobre o mundo para interpretar
 problemas não explícitos. Sendo assim, duas validações extras foram adicionadas.
