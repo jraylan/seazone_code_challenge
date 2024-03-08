@@ -105,8 +105,8 @@ ou não disponível na data de check-out de outra reserva.
 
 - **Superlotação:**
 Foi adicionado uma checagem para garantir que a quantidade de hospedes na reserva não excedam a capacidade
-do imovel. Esta validação não foi adicionada como constraints no banco de dados porque esta é uma informação
-que pode mudar sem afetar reservas já finalizadas. Uma constraints no banco impediria quaisquer mudanças que
+do imóvel. Esta validação não foi adicionada como constraints no banco de dados porque trata-se de uma informação
+que deve pode ser alterada sem afetar reservas já finalizadas. Uma constraints no banco impediria quaisquer mudanças que
 afete reservas antigas.
 
 
