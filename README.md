@@ -57,6 +57,10 @@ python3 manage.py runserver
 ```
 
 
+## Postman
+Uma coleção do Postman com todas as requisições à API está disponível [neste link](https://elements.getpostman.com/redirect?entityId=8168733-cf929272-7591-4a6c-8b82-737b1d8862a7&entityType=collection).
+
+
 
 ## Considerações
 Alguns aspectos do projeto, propositalmente, não estão documentados na proposição do
@@ -91,6 +95,11 @@ que este tipo de identificador possui mecanismos contra choque e possui uma gera
 o que atende aos requisitos propostos pelo desafio. Outros tipos dados foram considerados, como por
 exemplo o uso de hashes geradas a partir de informações da tabela, como a primary key e foreign keys,
 mas o UUID possui uma implementação substancialmente mais simples e por isso foi escolhido.
+
+
+Além destes, o campo "data da ativação" da tabela de imóveis não possui detalhes quanto a sua população.
+Neste campo, foi considerado usar-lo como validação para não permitir reservas ou anúncios antes da data
+de ativação do imóvel, mas por receio de fugir da proposta do desafio, esta validação não foi feita.
 
 
 ### Validações Extras
